@@ -1,0 +1,198 @@
+@media (max-width: 900px) {
+    #page-home {
+        background-position: 70vw;
+    }
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+    
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+    #page-search-results h4{
+        font-size: 1.9em;
+        text-align:center;
+    }
+    #page-search-results header a {
+        font-size: 1.9em;
+    }
+    #page-search-results .cards h3,
+    #page-search-results .cards p {
+        font-size: 1.9em;
+        line-height: 30px;
+    }
+    #page-search-results .cards h1 {
+        font-size: 3em;
+    }
+    #page-search-results header img {
+        width: 300px;
+        height: 80px;
+    
+    }
+    #page-create-point form .field-group {
+       flex-direction: column;
+      
+      
+    }
+
+    #page-create-point .field {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70vw;
+        
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+     
+    }
+
+    #page-create-point .items-grid {
+        grid-template-columns: 1fr 1fr ;
+        gap: 55px;
+    }
+    #page-create-point form button {
+       display: flex;
+      justify-content: center;
+      margin: 40px auto;
+    }
+
+    #page-create-point form h1 {
+        text-align: center;
+    }
+
+    #page-create-point legend#responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 35px;
+    }
+
+   
+  
+}
+
+@media (min-width: 1700px) {
+    #page-home {
+        background-position: 40vw;
+    }   
+}
+
+@media (max-height: 760px) {
+    #page-home {
+        background-position-y: 200px;
+    }  
+   
+}
+
+@media (max-width: 760px) {
+    #page-search-results h4{
+        font-size: 1.9em;
+        text-align:center;
+    }
+    #page-search-results header a {
+        font-size: 1.6em;
+        margin-left: 50px;
+        margin-right: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    #page-search-results .cards h3,
+    #page-search-results .cards p {
+        font-size: 1.9em;
+        line-height: 35px;
+    }
+    #page-search-results .cards h1 {
+        font-size: 4em;
+    }
+    #page-search-results .card {
+        margin-bottom: 50px;
+    }
+    #page-search-results .card h1,
+    #page-search-results .card h3,
+    #page-search-results .card p {
+        padding: 5px 0 5px;
+    }
+    #page-search-results header img {
+        width: 240px;
+        height: 70px;
+    
+    }
+
+    #page-search-results .card img {
+        height: 300px;
+    }
+
+   
+}
+
+
+@media(max-width: 650px) {
+    #page-create-point .items-grid {
+        grid-template-columns: 1fr;   
+    }
+
+    #page-create-point header a {
+        font-size: 1.7em;
+    }
+
+    #page-create-point header a span{
+        width: 40px;
+        height: 42px;
+    }
+
+    #page-create-point form label {
+        font-size: 30px;
+    }
+
+    #page-create-point form h2 {
+        font-size: 45px;
+    }
+
+    #page-create-point form h1 {
+        font-size: 40px;
+    }
+
+    #page-create-point form select {
+        font-size: 1.2em;
+    }
+
+    #page-create-point  #span-resp {
+        font-size: 1.4em;
+        margin-top: 10px;
+    }
+
+    #page-create-point form span {
+        font-size: 1.6em;
+    } 
+
+    #page-create-point form button {
+        width: 60vw;
+        font-size: 1.5em;
+        padding-top: 30px;
+        padding-bottom: 55px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media(max-width: 899px) {
+
+    #page-search-results .card img {
+        height: 350px;
+    }
+
+}
